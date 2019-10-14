@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\WCount\WCount\bin\WCount.dll.config
+C:\Users\Administrator\Desktop\WCount\WCount\bin\WCount.dll
+C:\Users\Administrator\Desktop\WCount\WCount\bin\WCount.pdb
+C:\Users\Administrator\Desktop\WCount\WCount\obj\Debug\WCount.dll
+C:\Users\Administrator\Desktop\WCount\WCount\obj\Debug\WCount.pdb
