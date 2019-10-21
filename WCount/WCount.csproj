@@ -19,6 +19,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -65,11 +67,29 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="3_6.aspx" />
+    <Content Include="3_7.aspx" />
     <Content Include="index.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="serve.aspx" />
+    <Content Include="test.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="3_6.aspx.cs">
+      <DependentUpon>3_6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="3_6.aspx.designer.cs">
+      <DependentUpon>3_6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="3_7.aspx.cs">
+      <DependentUpon>3_7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="3_7.aspx.designer.cs">
+      <DependentUpon>3_7.aspx</DependentUpon>
+    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -85,6 +105,13 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="serve.aspx.cs">
+      <DependentUpon>serve.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="serve.aspx.designer.cs">
+      <DependentUpon>serve.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

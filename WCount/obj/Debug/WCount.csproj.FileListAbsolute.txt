@@ -3,3 +3,8 @@ C:\Users\Administrator\Desktop\WCount\WCount\bin\WCount.dll
 C:\Users\Administrator\Desktop\WCount\WCount\bin\WCount.pdb
 C:\Users\Administrator\Desktop\WCount\WCount\obj\Debug\WCount.dll
 C:\Users\Administrator\Desktop\WCount\WCount\obj\Debug\WCount.pdb
+D:\Git\Count\TWO\WCount\bin\WCount.dll.config
+D:\Git\Count\TWO\WCount\bin\WCount.dll
+D:\Git\Count\TWO\WCount\bin\WCount.pdb
+D:\Git\Count\TWO\WCount\obj\Debug\WCount.dll
+D:\Git\Count\TWO\WCount\obj\Debug\WCount.pdb
