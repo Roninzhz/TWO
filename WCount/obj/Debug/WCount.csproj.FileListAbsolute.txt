@@ -8,3 +8,4 @@ D:\Git\Count\TWO\WCount\bin\WCount.dll
 D:\Git\Count\TWO\WCount\bin\WCount.pdb
 D:\Git\Count\TWO\WCount\obj\Debug\WCount.dll
 D:\Git\Count\TWO\WCount\obj\Debug\WCount.pdb
+D:\Git\Count\TWO\WCount\obj\Debug\WCount.csprojAssemblyReference.cache

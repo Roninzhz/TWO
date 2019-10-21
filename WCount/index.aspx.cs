@@ -46,7 +46,7 @@ namespace WCount
             {
                 string name = Session["uName"].ToString();
                 Response.Write("当前用户" + name);
-                Session.Timeout = 1;
+                //Session.Timeout = 1;
             }
         }
     }
